@@ -1,0 +1,34 @@
+#Question 1
+
+#Kostiantyn Polomanniy
+
+#Question a
+
+taylorSwiftSong = ["Love Story", "Shake it of", "Delicate", "Wildest Dreams", "All too well", "Blank Space", "Bad blood", "You Belong with me", "Red", "22"]
+#Place these songs in the list called 'taylorSwiftSongs'.
+#Question b
+sng = input("Please, enter a song:")
+if sng == taylorSwiftSong:
+    print("The song" ,taylorSwiftSong, "is in the list at position" ,n, "out of 10 songs.")
+  
+
+
+
+
+
+
+
+#Question 2
+#Kostiantyn Polomanniy
+
+print("Welcome to Temperature Alert System!")
+temp = int(input("Enter temperature value in degrees Celsius:"))
+if temp <=20:
+    print("too cold. Turn up heating")
+    
+elif  20<= temp <= 24:
+    print("temperature is just right")
+    
+elif 24=>:
+    print("Too warm. Turn down heating")
+    
